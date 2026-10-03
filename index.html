@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panadería El Buen Trigo 🥖</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="header">
+        <div class="logo">
+            <h1>🥖 Panadería <span>El Buen Trigo</span></h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO / PORTADA -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>Pan recién horneado cada día</h2>
+            <p>Tradición, sabor y calidad en cada bocado</p>
+            <a href="#productos" class="btn">Ver Productos</a>
+        </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section id="productos" class="productos">
+        <h2 class="titulo-seccion">Nuestros Productos</h2>
+        <div class="grid-productos">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400" alt="Pan francés">
+                <h3>Pan Francés</h3>
+                <p>Crujiente por fuera, suave por dentro.</p>
+                <span class="precio">$2.500</span>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400" alt="Croissant">
+                <h3>Croissant</h3>
+                <p>Delicioso hojaldre con mantequilla.</p>
+                <span class="precio">$3.200</span>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400" alt="Torta">
+                <h3>Torta de Chocolate</h3>
+                <p>Húmeda y con frosting artesanal.</p>
+                <span class="precio">$25.000</span>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=400" alt="Cupcakes">
+                <h3>Cupcakes</h3>
+                <p>Decorados con buttercream.</p>
+                <span class="precio">$4.000</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+        <div class="contenido-nosotros">
+            <h2 class="titulo-seccion">Sobre Nosotros</h2>
+            <p>Desde 1985 horneando con amor. Somos una panadería familiar dedicada a ofrecer los mejores productos artesanales de la ciudad. Usamos ingredientes naturales y recetas tradicionales que han pasado de generación en generación.</p>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+        <h2 class="titulo-seccion">Contáctanos</h2>
+        <form id="formulario" class="formulario">
+            <input type="text" id="nombre" placeholder="Tu nombre" required>
+            <input type="email" id="email" placeholder="Tu correo" required>
+            <textarea id="mensaje" placeholder="Tu mensaje" rows="5" required></textarea>
+            <button type="submit" class="btn">Enviar Mensaje</button>
+        </form>
+        <p id="respuesta"></p>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <p>© 2025 Panadería El Buen Trigo - Todos los derechos reservados</p>
+        <p>📍 Calle Principal #123 | 📞 +57 300 123 4567</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
